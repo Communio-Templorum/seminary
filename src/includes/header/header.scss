@@ -1,0 +1,11 @@
+body > nav:not([hidden]) {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	align-items: flex-start;
+
+	> *:not([hidden]) {
+		display: block;
+	}
+}
